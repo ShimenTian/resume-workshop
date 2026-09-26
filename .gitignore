@@ -1,0 +1,19 @@
+node_modules/
+dist/
+*.tsbuildinfo
+.DS_Store
+server/target/
+server/data/
+
+# Local settings, credentials and generated files
+.env
+.env.*
+!.env.example
+*.log
+coverage/
+.idea/
+
+# Personal resume exports and local database files
+*.resume.json
+*.mv.db
+*.trace.db
